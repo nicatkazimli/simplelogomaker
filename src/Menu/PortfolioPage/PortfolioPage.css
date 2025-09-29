@@ -1,0 +1,67 @@
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(255,77,77,0.85), rgba(0,0,0,0.5)),
+              url('https://cdn.logotypemaker.com/img/landing-stationary-illustration.svg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: auto;
+}
+
+.category-column {
+  flex: 1;
+  background: rgba(212, 108, 108, 0.9);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.category-column h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.logo-box {
+  background: #f3b6b6;
+  border-radius: 10px;
+  height: 275px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.logo-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.logo-box:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  .portfolio-container {
+    flex-direction: column;
+  }
+
+  .category-column {
+    margin-bottom: 20px;
+  }
+}
