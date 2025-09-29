@@ -65,7 +65,7 @@
     max-width: 98%;
   }
   .footer {
-  width: 91.2%;
+  width: 90.8%;
   padding: 60px 20px;
   color: #fff;
   text-align: center;
@@ -74,8 +74,5 @@
   background-size: cover;
   background-position: center; 
 }
-.footer-boxes box2{
-  width: 105%;
-  height: 800px;
-}
+
 }
