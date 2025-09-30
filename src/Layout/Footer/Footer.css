@@ -53,7 +53,6 @@
   border-color: #fff;
 }
 
-/* ✅ Responsivlik düzəlişi */
 @media (max-width: 768px) {
   .footer-boxes {
     flex-direction: column;
@@ -61,11 +60,11 @@
   }
 
   .box {
-    flex: 0 0 100%; /* kiçik ekranda full width */
+    flex: 0 0 100%; 
     max-width: 98%;
   }
   .footer {
-  width: 90.3%;
+  width: 90%;
   padding: 60px 20px;
   color: #fff;
   text-align: center;

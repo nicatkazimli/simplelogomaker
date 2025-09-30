@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -16,9 +17,13 @@ const HomePage = () => {
           <p>Yaradıcılıq və keyfiyyəti birləşdirir.</p>
           <p>Hər layihəyə xüsusi yanaşır.</p>
           <p>Müştəri məmnuniyyəti onun üçün prioritetdir.</p>
+          <Link className='button' to='/portfolio'>Haqqımda daha çox</Link>
         </div>
+        
       </div>
+      
     </div>
+    
   )
 }
 
