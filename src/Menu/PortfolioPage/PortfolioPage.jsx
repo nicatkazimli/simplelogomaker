@@ -41,7 +41,7 @@ const PortfolioPage = () => {
         <div className="logo-grid">
           {premium.map(logo => (
             <div key={logo.id} className="logo-box">
-              <img src={logo.image} alt={logo.title} />
+              <img width={150} height={150} src={logo.image}  alt={logo.title} />
               <h3>{logo.title}</h3>
               <p>{logo.description}</p>
             </div>
